@@ -1,0 +1,52 @@
+.root {
+	-fx-background-color: lightgray;
+}
+
+.label {
+	-fx-font-family: "Calibri";
+	-fx-font-size: 10pt;
+}
+
+.label-header {
+	-fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}
+
+.label-title {
+	-fx-font-size: 18pt;
+    -fx-text-fill: #006300;
+    -fx-font-weight: bold;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Calibri";
+    -fx-alignment: center-left;
+    -fx-font-weight: normal;
+}
+
+.button {
+    -fx-padding: 5 25 5 25;   
+    -fx-font-size: 8pt;
+    -fx-background-radius: 5;
+}
+
+.split-pane, .split-pane-divider {
+   -fx-background-color: transparent;
+}
+
+#borderedBox {
+	-fx-border-color: #777777;
+	-fx-border-width: 1px;
+	-fx-border-radius: 8px;
+}
+
+#leftAlignColumn {
+	-fx-alignment: center-left;
+}
+#centerAlignColumn {
+	-fx-alignment: center;
+}
+#rightAlignColumn {
+	-fx-alignment: center-right;
+}
